@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moscow Escort</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f7f0fc, #ffe4e1);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+    
+        header {
+            background: #ffffff;
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #d12b62;
+            font-weight: bold;
+        }
+    
+        nav {
+            margin: 15px 0;
+        }
+    
+        nav a {
+            text-decoration: none;
+            color: #d12b62;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+    
+        nav a:hover {
+            color: #8a1e44;
+        }
+    
+        .models {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px auto;
+            gap: 20px;
+            padding: 0 20px;
+        }
+    
+        .model {
+            background: #ffffff;
+            width: 230px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .model:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+    
+        .model img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    
+        .model h3 {
+            margin: 15px 0 10px;
+            font-size: 20px;
+            color: #d12b62;
+        }
+    
+        .model p {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0;
+            padding: 0 10px;
+            line-height: 1.5;
+        }
+    
+        .model .price {
+            font-size: 18px;
+            color: #8a1e44;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+    
+        .contacts-section {
+            background: #ffffff;
+            width: 90%;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+    
+        .contacts-section h2 {
+            font-size: 28px;
+            color: #8a1e44;
+            margin-bottom: 20px;
+        }
+    
+        .contacts-section p {
+            font-size: 16px;
+            color: white;
+            line-height: 1.6;
+        }
+    
+        footer {
+            background: #d12b62;
+            color: #fff;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+    
+        footer p {
+            margin: 0;
+        }
+        .contacts-section {
+            width: 90%;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+    
+        .contacts-section h2 {
+            font-size: 32px;
+            color: #d12b62;
+            margin-bottom: 25px;
+        }
+    
+        .contacts-section p {
+            font-size: 18px;
+            color: #000000;
+            line-height: 1.8;
+        }
+        .model button {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .model button:hover {
+            background-color: #8a1e44;
+        }
+        .model {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tags {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    font-size: 16px; /* уменьшение размера значков */
+    padding: 3px 6px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.hot {
+    background: linear-gradient(to right, red, orange);
+    color: white;
+}
+
+.vip {
+    background-color: gold;
+    color: black;
+}
+
+.verified {
+    font-size: 18px; /* Немного уменьшен размер */
+    color: #fff; /* Белый цвет для эмодзи */
+    background: radial-gradient(circle, rgba(255, 102, 102, 0.8), rgba(255, 165, 0, 0.7)); /* Теплый градиент */
+    padding: 6px; /* Легкие отступы для создания акцента */
+    border-radius: 50%; /* Круглая форма */
+    display: inline-block; /* Встроенный элемент */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Легкая тень для выделения */
+    transition: all 0.3s ease; /* Плавный переход */
+    text-align: center; /* Центрируем эмодзи */
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Moscow Escort</h1>
+        <nav>
+            <a href="#models">Модели</a>
+            <a href="#contacts">Контакты</a>
+            <a href="https://teletype.in/@edwardhyde/Polzovatelskoe-soglashenie-dlya-klientov-09-11">Гарантия</a>
+        </nav>
+    </header>
+
+    <section id="models" class="models">
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model1.jpg?v=1733939642286" alt="Модель 1">
+            <h3>Анна 19</h3>
+            <p>Очаровательная и утонченная, всегда готова удивить.</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="verified">✔</span>
+
+            </div>
+            <button onclick="window.location.href='anna.html'">Профиль</button>
+        </div>
+
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model2.jpg?v=1733939641084" alt="Модель 2">
+            <h3>Виктория 23</h3>
+            <p>Яркая личность с идеальным чувством стиля.</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="verified">✔</span>
+
+            </div>
+            <button onclick="window.location.href='vik.html'">Профиль</button>
+        </div>
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model3.jpg?v=1733939640201" alt="Модель 3">
+            <h3>Мария 21</h3>
+            <p>Элегантность и шарм, с которыми вы почувствуете себя особенным.</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="verified">✔</span>
+
+            </div>
+            <button onclick="window.location.href='maria.html'">Профиль</button>
+        </div>
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model4.jpg?v=1733939638958" alt="Модель 3">
+            <h3>Оксана 22</h3>
+            <p>Вдохнем разнообразия в серые будни?</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="verified">✔</span>
+
+            </div>
+            <button onclick="window.location.href='oksana.html'">Профиль</button>
+        </div>
+        <div class="model">
+            <img src=https://i.postimg.cc/3JFJGdJ5/photo-2024-12-25-13-56-02.jpg" alt="Модель 3">
+            <h3>Даша 20</h3>
+            <p>Я живу моментами радости,а ты?)</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="verified">✔</span>
+
+            </div>
+            <button onclick="window.location.href='dasha.html'">Профиль</button>
+        </div>
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model6.jpg?v=1733939636634" alt="Модель 3">
+            <h3>Маша 27</h3>
+            <p>Красота ведь не главное,да?</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="verified">✔</span>
+
+            </div>
+            <button onclick="window.location.href='masha.html'">Профиль</button>
+        </div>
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model7.jpg?v=1733939635597" alt="Лиза 23">
+            <h3>Лиза 23</h3>
+            <p>Веришь в чудо? Оно перед тобой!</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="tag hot">HOT</span>
+                <span class="tag vip">VIP</span>
+
+            </div>
+            <button onclick="window.location.href='liza.html'">Профиль</button>
+        </div>
+        
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model8.jpg?v=1733939634171" alt="Влада 24">
+            <h3>Влада 24</h3>
+            <p>Я и есть твое счастье!</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="tag hot">HOT</span>
+
+
+            </div>
+            <button onclick="window.location.href='vlada.html'">Профиль</button>
+        </div>
+        
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model9.jpg?v=1733939632782" alt="Вика 22">
+            <h3>Вика 22</h3>
+            <p>Люблю только мужчин</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+
+                <span class="tag vip">VIP</span>
+
+            </div>
+            <button onclick="window.location.href='vika.html'">Профиль</button>
+        </div>
+        
+        <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model10.jpg?v=1733939621787" alt="Саша 22">
+            <h3>Саша 22</h3>
+            <p>Я предугадаю твои желания</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="tag vip">VIP</span>
+
+            </div>
+            <button onclick="window.location.href='sasha.html'">Профиль</button>
+        </div>
+                <div class="model">
+            <img src="https://cdn.glitch.global/e9644101-b89e-41b7-9a6d-4546c6bfec52/model11.jpg?v=1734026151680" alt="Маша 23">
+            <h3>Маша 23</h3>
+            <p>Нежная и сексуальная</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                <span class="tag vip">Premium</span>
+                 <span class="tag hot">HOT</span>
+ 
+
+            </div>
+            <button onclick="window.location.href='mawa.html'">Профиль</button>
+        </div>
+                    <div class="model">
+            <img src="https://img1.prostitutki.uk/public/files/photos/large-955a80aada76b18f36e089f9378136a3.jpg" alt="Николь 23">
+            <h3>Юля 21 </h3>
+            <p>Я опытная девушка в интимной сфере</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                 <span class="tag hot">HOT</span>
+            </div>
+            <button onclick="window.location.href='yulya.html'">Профиль</button>
+        </div>
+                     <div class="model">
+            <img src="https://img1.prostitutki.uk/public/files/photos/large-f668153a361a7a976c449145c84d1453.jpg" alt="Маша 23">
+            <h3>Катя 28 </h3>
+            <p>АППЕТИТНАЯ И РАЗВРАТНАЯ</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                 <span class="tag hot">HOT</span>
+            </div>
+            <button onclick="window.location.href='katya.html'">Профиль</button>
+        </div>
+        <div class="model">
+            <img src="https://img1.prostitutki.uk/public/files/photos/large-8e82430295a9c8cdad8aa2ff2ff82373.jpg" alt="Николь 23">
+            <h3>Николь 25 </h3>
+            <p>Я околдую Вас своей нежностью</p>
+            <div class="price">Цена: 4000 руб/час <br> 12000 руб/Ночь</div>
+            <div class="tags">
+                 <span class="tag hot">HOT</span>
+            </div>
+            <button onclick="window.location.href='nikol.html'">Профиль</button>
+        </div>
+    </section>
+
+    <section class="contacts-section" id="contacts">
+        <h2>Свяжитесь с Нами</h2>
+        <p>Если у вас есть вопросы или вы хотите забронировать модель, пожалуйста, свяжитесь с нами. Мы всегда рады помочь вам выбрать идеальную модель для вашего мероприятия.</p>
+        <p>Для заказа модели нажмите:</p><a href="https://t.me/vixxkskiss" style="color: #ffffff; background-color:#8a1e44; padding: 10px; border-radius: 5px; text-decoration: none;">Забронировать</a>
+        <p>И укажите оператору анкету модели а так же время брони модели</p>
+      <p>
+        Дополнительные услуги за отдельную плату,обговариваются с моделью
+      </p>
+             <h2>График работы</h2>
+      <p>
+        График работы менеджера круглосуточно
+      </p>
+    </section>
+</body>
+</html>
